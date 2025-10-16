@@ -463,8 +463,8 @@ body .footer-mob .flex-fot .txt-flex img {
   list-style: none;
   position: absolute;
   top: 32%;
-  left: 32.5%;
-  transform: translateX(-40%, -40%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding-left: 0;
 }
 .sidenav .menu .menu-item {
@@ -502,7 +502,7 @@ body .footer-mob .flex-fot .txt-flex img {
 }
 
 .hamburguer-menu {
-  top: 3rem;
+  top: 4.25rem;
   right: 2rem;
   position: fixed;
   width: 2rem;
@@ -522,7 +522,7 @@ body .footer-mob .flex-fot .txt-flex img {
 }
 
 .whats-icon {
-  top: 6rem;
+  top: 7rem;
   right: 2rem;
   position: fixed;
   z-index: 2000;
@@ -541,7 +541,7 @@ body .footer-mob .flex-fot .txt-flex img {
 }
 
 .phone-icon {
-  top: 9rem;
+  top: 11rem;
   right: 2rem;
   position: fixed;
   z-index: 2000;
@@ -565,5 +565,61 @@ body .footer-mob .flex-fot .txt-flex img {
 @media (min-width: 768px) {
   .change .hamburguer-menu {
     right: 22rem;
+  }
+}
+
+.lang-switcher {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 3000;
+}
+
+.lang-switcher .lang-btn {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  cursor: pointer;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-switcher .lang-btn:hover {
+  background: #fff;
+  color: #2a0431;
+  transform: translateY(-1px);
+  border-color: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lang-switcher .lang-btn:active {
+  transform: translateY(0);
+}
+
+.lang-switcher .lang-btn.active-lang {
+  background: #0ac0dd;
+  border-color: #0ac0dd;
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(10, 192, 221, 0.25), 0 4px 14px rgba(0, 0, 0, 0.18);
+  text-shadow: none;
+}
+
+@media (max-width: 480px) {
+  .lang-switcher .lang-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.82rem;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,135 @@
+{
+  "es": {
+    "nav": { "home": "Inicio", "us": "Nosotros", "products": "Productos", "values": "Valores", "contact": "Contacto" },
+    "hero": { "tagline": "Empresa Mexicana / Proceso de chocolate artesanal – Cultivo orgánico" },
+    "us": {
+      "title": "Nosotros",
+      "who": "¿Quiénes somos?",
+      "p1": "Empresa Mexicana cuyo objetivo es conservar las tradiciones nacionales aprovechando la vegetación de nuestra zona, la cual se ve amenazada principalmente por la industria petrolera o bien por la desvalorización del trabajo arduo de miles de familias hermanas productoras de cacao; anhelamos preservar este grandioso legado que se ha transmitido de generación en generación.",
+      "p2": "Nos llena de orgullo formar parte de Tabasco privilegiada: su ubicación geográfica única nos provee del mejor cacao criollo nativo de México, el cual posee excelentes propiedades benéficas para la salud, la mente y la armonía espiritual. Nuestro objetivo es crear, a través de la nutrición y el cuidado de la salud, un mundo más sano que consuma productos de la más alta calidad, nacionales y por supuesto el proceso es artesanal."
+    },
+    "products": {
+      "title": "Productos",
+      "confections": "Confitados",
+      "gourmet": "Chocolate Gourmet",
+      "sacks": "Costalitos",
+      "miniBars": "Mini Barritas",
+      "powder": "Chocolate en Polvo"
+    },
+    "mission": {
+      "title": "Misión",
+      "text": "Chocolate Quinto Molinillo es reconocido por una gran trayectoria cimentada en su amplia experiencia en el cultivo de cacao criollo nativo. Nos dedicamos a preservar el proceso artesanal empleado en la elaboración de nuestro chocolate, se distingue por su excelente aroma y sabor. Reivindicamos el esfuerzo de nuestras familias productoras, quienes no solo cultivan, sino que reforestan la región con diversos árboles y plantas con el fin de que los plantíos favorezcan la ecología y la salud de los consumidores. Nuestra meta es salvaguardar nuestras tradiciones y aportar beneficios nutricionales a las familias mexicanas a la vez que les brindamos el mejor sabor."
+    },
+    "vision": {
+      "title": "Visión",
+      "text": "Ser reconocidos como los mejores productores de chocolate artesanal a nivel nacional con los beneficios y propiedades favorables para la salud que posee nuestro chocolate con familias de todo el mundo, a fin de que mejoren su calidad de vida a través de un sabor exquisito."
+    },
+    "contact": {
+      "title": "Contacto",
+      "placeholderName": "Tu nombre",
+      "placeholderEmail": "Tu correo",
+      "placeholderMessage": "Tu mensaje",
+      "send": "Enviar"
+    },
+    "footer": { "copyright": "Copyright © 2020, Quinto Molinillo - Todos los derechos reservados" }
+  },
+
+  "en": {
+    "nav": { "home": "Home", "us": "About us", "products": "Products", "values": "Values", "contact": "Contact" },
+    "hero": { "tagline": "Mexican company / Artisan chocolate process – Organic cultivation" },
+    "us": {
+      "title": "About us",
+      "who": "Who are we?",
+      "p1": "Mexican company whose objective is to preserve national traditions by taking advantage of our region's vegetation, which is threatened mainly by the oil industry or by the undervaluation of the hard work of thousands of cacao-producing families; we long to preserve this great legacy that has been passed down from generation to generation.",
+      "p2": "We are proud to be part of privileged Tabasco: its unique geographic location provides us with the best native criollo cacao in Mexico, which has excellent properties that benefit health, mind and spiritual harmony. Our goal is to create, through nutrition and health care, a healthier world that consumes the highest-quality national products, produced through an artisan process."
+    },
+    "products": {
+      "title": "Products",
+      "confections": "Confections",
+      "gourmet": "Gourmet Chocolate",
+      "sacks": "Little Sacks",
+      "miniBars": "Mini Bars",
+      "powder": "Chocolate Powder"
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Quinto Molinillo Chocolate is recognized for a long trajectory based on extensive experience in cultivating native criollo cacao. We are dedicated to preserving the artisan process used to make our chocolate, distinguished by its excellent aroma and flavor. We value the effort of our producing families, who not only cultivate but also reforest the region with diverse trees and plants so that the plantations benefit both ecology and consumers' health. Our goal is to safeguard traditions and provide nutritional benefits to families while offering the best taste."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "To be recognized as the best producers of artisan chocolate nationwide, sharing the health benefits and favorable properties of our chocolate with families around the world so they can improve their quality of life through exquisite flavor."
+    },
+    "contact": {
+      "title": "Contact",
+      "placeholderName": "Your name",
+      "placeholderEmail": "Your email",
+      "placeholderMessage": "Your message",
+      "send": "Send"
+    },
+    "footer": { "copyright": "Copyright © 2020, Quinto Molinillo – All rights reserved" }
+  },
+
+  "fr": {
+    "nav": { "home": "Accueil", "us": "Qui sommes-nous", "products": "Produits", "values": "Valeurs", "contact": "Contact" },
+    "hero": { "tagline": "Entreprise mexicaine / Processus de chocolat artisanal – Culture biologique" },
+    "us": {
+      "title": "À propos",
+      "who": "Qui sommes-nous ?",
+      "p1": "Entreprise mexicaine dont l’objectif est de préserver les traditions nationales en valorisant la végétation de notre région, menacée principalement par l’industrie pétrolière ou par la sous-évaluation du travail acharné de milliers de familles productrices de cacao ; nous souhaitons préserver ce grand héritage transmis de génération en génération.",
+      "p2": "Nous sommes fiers de faire partie du Tabasco privilégié : sa situation géographique unique nous fournit le meilleur cacao criollo natif du Mexique, qui possède d’excellentes propriétés bénéfiques pour la santé, l’esprit et l’harmonie spirituelle. Notre objectif est de créer, grâce à la nutrition et aux soins de santé, un monde plus sain qui consomme des produits nationaux de la plus haute qualité, issus d’un processus artisanal."
+    },
+    "products": {
+      "title": "Produits",
+      "confections": "Confiseries",
+      "gourmet": "Chocolat gourmet",
+      "sacks": "Petits sacs",
+      "miniBars": "Mini barres",
+      "powder": "Chocolat en poudre"
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Quinto Molinillo est reconnu pour une longue trajectoire fondée sur une vaste expérience dans la culture du cacao criollo natif. Nous nous consacrons à préserver le procédé artisanal utilisé pour élaborer notre chocolat, qui se distingue par son excellent arôme et sa saveur. Nous valorisons l’effort de nos familles productrices, qui non seulement cultivent mais reboisent également la région avec divers arbres et plantes afin que les plantations favorisent l’écologie et la santé des consommateurs. Notre but est de sauvegarder les traditions et d’apporter des bénéfices nutritionnels aux familles tout en offrant la meilleure saveur."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "Être reconnus comme les meilleurs producteurs de chocolat artisanal au niveau national, en partageant les bienfaits et les propriétés favorables pour la santé de notre chocolat avec des familles du monde entier afin d’améliorer leur qualité de vie grâce à une saveur exquise."
+    },
+    "contact": {
+      "title": "Contact",
+      "placeholderName": "Votre nom",
+      "placeholderEmail": "Votre e-mail",
+      "placeholderMessage": "Votre message",
+      "send": "Envoyer"
+    },
+    "footer": { "copyright": "Copyright © 2020, Quinto Molinillo – Tous droits réservés" }
+  },
+
+  "chontal": {
+    "nav": { "home": "Ñupä", "us": "Wokʔomäk", "products": "Tsäkäkä", "values": "Wäkäläj", "contact": "Jumuñäk" },
+    "hero": { "tagline": "Ñu yäts'ä' Quinto Molinillo / ñupä tɨ' kätsä yäts'ä' kʔajä – ñäkäb tɨ' chʔäkäl" },
+    "us": {
+      "title": "Wokʔomäk",
+      "who": "¿Ñäkä ñu yäts'ä'?",
+      "p1": "Ñu yäts'ä' mätsäkä tɨ' México, ñu wäkäk wäkä yä'äkä tsäkäk tɨ' yomoʔäk. Ñäkä wäkäj tɨ' mätsäkä, ñäkäkä tɨ' päkäj tɨ' tsäkäkä wäkä yäts'ä', äñäk ñu wakäk yäts'ä' ñu yomoʔäk.",
+      "p2": "Ñäkä ñu wäkäk tɨ' Tabasco, ñu tɨ'kä wäkä yäts'ä' ñäkä näkä'äkäkä ñu cacao criollo. Ñäkäkä tɨ' ñäkäj tɨ' chʔäkäl, ñäkäkä tɨ' ñäkäj tɨ' tʔuchäkä. Ñu wäkäk ñu tsäkäkä tɨ' äñäk mätsäk yäts'ä' mäñäk ñu yomoʔäk."
+    },
+    "products": {
+      "title": "Tsäkäkä",
+      "confections": "Ñäkäkä wäkäläj",
+      "gourmet": "Chocolate wäkäkä",
+      "sacks": "K'ojomäkä",
+      "miniBars": "Kätsäkä",
+      "powder": "Ñu chocolate käbäk"
+    },
+    "mission": { "title": "Wäkäj", "text": "Quinto Molinillo ñu wäkäk tɨ' äñäk tsäkäkä tɨ' cacao criollo, ñäkäkä wäkäj tɨ' ñu wäkäkä mäñäk. Ñäkäkä ñäkä yäts'ä' tsäkäkä wäkäläj, ñu wäkäkä ñäkä ñu chʔäkäl, ñäkäkä ñu tʔuchäkä ñu yomoʔäk." },
+    "vision": { "title": "Wäkäj mäñäk", "text": "Ñäkä ñu wäkäk ñäkä tɨ' mätsäkäj tɨ' chocolate wäkäkä, ñäkäkä ñu wakäk tɨ' yäts'ä' mäñäk ñu wäkäläj tɨ' México." },
+    "contact": {
+      "title": "Jumuñäk",
+      "placeholderName": "Ñäkä ñu päkä",
+      "placeholderEmail": "Ñäkä ñu correo",
+      "placeholderMessage": "Ñäkä ñu mätsäk",
+      "send": "Kämäk"
+    },
+    "footer": { "copyright": "Copyright © 2020, Quinto Molinillo - Ñäkä mätsäk ñu wäkäkä" }
+  }
+}
