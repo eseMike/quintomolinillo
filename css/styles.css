@@ -446,7 +446,7 @@ body .footer-mob .flex-fot .txt-flex img {
   position: fixed;
   top: 0;
   right: -100%;
-  background-image: url(../assets/hero/back-sidebar.png);
+  background-image: url(./../assets/menu/back-menu.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

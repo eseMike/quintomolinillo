@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -60,7 +60,7 @@
         <div class="hero">
 
             <img src="./assets/hero/logo.png" alt="">
-            <span>Empresa Mexicana/Proceso de chocolate artesanal-Cultivo orgánico</span>
+            <span data-i18n="hero.tagline">Empresa Mexicana/Proceso de chocolate artesanal-Cultivo orgánico</span>
             <div/>
     </section>
     <!-- End of hero  -->
@@ -68,13 +68,18 @@
     <!-- Sidenav  -->
     <section class="sidenav">
         <ul class="menu">
-            <li class="menu-item"> <a href="#hero">Inicio</a> </li>
-            <li class="menu-item"> <a href="#us">Nosotros</a> </li>
-            <li class="menu-item"> <a href="#products">Productos</a> </li>
-            <li class="menu-item"> <a href="#vision">Valores</a> </li>
-            <li class="menu-item"> <a href="#contact">Contacto</a> </li>
+            <li class="menu-item"> <a href="#hero" data-i18n="nav.home">Inicio</a> </li>
+            <li class="menu-item"> <a href="#us" data-i18n="nav.us">Nosotros</a> </li>
+            <li class="menu-item"> <a href="#products" data-i18n="nav.products">Productos</a> </li>
+            <li class="menu-item"> <a href="#vision" data-i18n="nav.values">Valores</a> </li>
+            <li class="menu-item"> <a href="#contact" data-i18n="nav.contact">Contacto</a> </li>
         </ul>
-
+        <div class="lang-switch">
+            <button type="button" data-lang="es">ES</button>
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="fr">FR</button>
+            <button type="button" data-lang="chontal">CH</button>
+        </div>
         <div class="social-media">
             <a target="_blank" href="https://vm.tiktok.com/ZMNJw669P/"><i class="fa-brands fa-tiktok"></i></a>
             <a target="_blank" href="https://www.instagram.com/quintomolinillo/"> <i class="fa-brands fa-instagram"></i> </a>
@@ -87,18 +92,18 @@
         <div class="container">
             <div class="title-container">
                 <div class="h2Cont">
-                    <h2>Nosotros</h2>
+                    <h2 data-i18n="us.title">Nosotros</h2>
                 </div>
             </div>
 
             <div class="grid-us" id="us">
                 <div>
-                    <h2>¿Quiénes somos?</h2>
-                    <p>Empresa Mexicana cuyo objetivo es conservar las tradiciones nacionales aprovechando la vegetación de nuestra zona, la cual se ve amenazada principalmente por la industria petrolera o bien por la desvalorización del trabajo arduo de
+                    <h2 data-i18n="us.who">¿Quiénes somos?</h2>
+                    <p data-i18n="us.p1">Empresa Mexicana cuyo objetivo es conservar las tradiciones nacionales aprovechando la vegetación de nuestra zona, la cual se ve amenazada principalmente por la industria petrolera o bien por la desvalorización del trabajo arduo de
                         miles de familias hermanas productoras de cacao; anhelamos preservar este grandioso legado que se ha transmitido de generación en generación.
                     </p>
 
-                    <p>Nos llena de orgullo formar parte de Tabasco privilegiada: su ubicación geográfica única nos provee del mejor cacao criollo nativo de México, el cual posee excelentes propiedades benéficas para la salud, la mente y la armonía espiritual.
+                    <p data-i18n="us.p2">Nos llena de orgullo formar parte de Tabasco privilegiada: su ubicación geográfica única nos provee del mejor cacao criollo nativo de México, el cual posee excelentes propiedades benéficas para la salud, la mente y la armonía espiritual.
                         Nuestro objetivo es crear, a través de la nutrición y el cuidado de la salud, un mundo más sano que consuma productos de la más alta calidad, nacionales y por supuesto el proceso es artesanal.
                     </p>
                 </div>
@@ -122,7 +127,7 @@
             <div class="container">
                 <div class="title-container3">
                     <div class="h2Cont3">
-                        <h2>Productos</h2>
+                        <h2 data-i18n="products.title">Productos</h2>
                     </div>
                 </div>
             </div>
@@ -131,7 +136,7 @@
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 
-            <h3>Confitados</h3>
+            <h3 data-i18n="products.confections">Confitados</h3>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/productos-png/double1.png" class="d-block w-100" alt="...">
@@ -172,7 +177,7 @@
 
             <img src="./assets/contacto/pink-div.svg" style="margin: 3rem auto" alt="">
 
-            <h3>Chocolate Gourmet</h3>
+            <h3 data-i18n="products.gourmet">Chocolate Gourmet</h3>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/productos-png/PRODUCTOS PNGS-11.png" class="d-block w-100" alt="...">
@@ -227,7 +232,7 @@
 
             <img src="assets/contacto/pink-div.svg" style="margin: 3rem auto" alt="">
 
-            <h3>Costalitos</h3>
+            <h3 data-i18n="products.sacks">Costalitos</h3>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/productos-png/PRODUCTOS PNGS-19.png" class="d-block w-100" alt="...">
@@ -264,7 +269,7 @@
 
         <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="true">
             <img src="assets/contacto/pink-div.svg" style="margin: 3rem auto" alt="">
-            <h3>Mini Barritas</h3>
+            <h3 data-i18n="products.miniBars">Mini Barritas</h3>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/productos-png/PRODUCTOS PNGS-23.png" class="d-block w-100" alt="...">
@@ -314,7 +319,7 @@
 
         <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="true">
             <img src="assets/contacto/pink-div.svg" style="margin: 3rem auto" alt="">
-            <h3>Chocolate en Polvo</h3>
+            <h3 data-i18n="products.powder">Chocolate en Polvo</h3>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/productos-png/productos-polvo pngs-26.png" class="d-block w-100" alt="...">
@@ -350,15 +355,16 @@
     <section class="mission" id="vision">
         <div class="container max-p">
             <div>
-                <h2>Misión</h2>
-                <p>Chocolate Quinto Molinillo es reconocido por una gran trayectoria cimentada en su amplia experiencia en el cultivo de cacao criollo nativo. Nos dedicamos a preservar el proceso artesanal empleado en la elaboración de nuestro chocolate,
+
+                <h2 data-i18n="mission.title">Misión</h2>
+                <p data-i18n="mission.text">Chocolate Quinto Molinillo es reconocido por una gran trayectoria cimentada en su amplia experiencia en el cultivo de cacao criollo nativo. Nos dedicamos a preservar el proceso artesanal empleado en la elaboración de nuestro chocolate,
                     se distingue por su excelente aroma y sabor. Reivindicamos el esfuerzo de nuestras familias productoras, quienes no solo cultivan, sino que reforestan la región con diversos árboles y plantas con el fin de que los plantíos favorezcan
                     la ecología y la salud de los consumidores. Nuestra meta es salvaguardar nuestras tradiciones y aportar beneficios nutricionales a las familias mexicanas a la vez que les brindamos el mejor sabor.</p>
             </div>
 
             <div>
-                <h2>Visión</h2>
-                <p>Ser reconocidos como los mejores productores de chocolate artesanal a nivel nacional con los beneficios y propiedades favorables para la salud que posee nuestro chocolate con familias de todo el mundo, a fin de que mejoren su calidad de
+                <h2 data-i18n="vision.title">Visión</h2>
+                <p data-i18n="vision.text">Ser reconocidos como los mejores productores de chocolate artesanal a nivel nacional con los beneficios y propiedades favorables para la salud que posee nuestro chocolate con familias de todo el mundo, a fin de que mejoren su calidad de
                     vida a través de un sabor exquisito.</p>
             </div>
         </div>
@@ -371,7 +377,7 @@
         <div class="container">
             <div class="title-container2">
                 <div class="h2Cont2">
-                    <h2>Contacto</h2>
+                    <h2 data-i18n="contact.title">Contacto</h2>
                 </div>
             </div>
             <div class="flex-icon">
@@ -380,12 +386,12 @@
             </div>
             <div class="flex-icon">
                 <img src="./assets/contacto/mail-icon.svg" alt="">
-                <p>Chocolate.artesanal.molinillo@gmail.com</p>
+                <p>quinto.molinillo@gmail.com</p>
 
             </div>
             <div class="flex-icon">
                 <img src="./assets/contacto/ubi-icon.svg" alt="">
-                <p>Calle 49, No.111 Ignacio Zaragoza, 15900, Ciudad de México, CDMX.</p>
+                <p>Calle Avena, No.388 Colonia Granjas México, Ciudad de México, CDMX.</p>
             </div>
         </div>
         <img class="pink-div" src="./assets/contacto/pink-div.svg" alt="">
@@ -401,7 +407,7 @@
             </div>
             <div class="logo-foot">
                 <img src="./assets/hero/logo.png" alt="">
-                <p>Copyright © 2020, Quinto Molinillo - Todos los derechos reservados</p>
+                <p data-i18n="footer.copyright">Copyright © 2020, Quinto Molinillo - Todos los derechos reservados</p>
             </div>
             <div>
                 <img src="./assets/footer/make-icon.png" alt="">
@@ -420,7 +426,7 @@
             </div>
 
             <div class="txt-flex">
-                <p>Copyright © 2020, Quinto Molinillo - Todos los derechos reservados</p>
+                <p data-i18n="footer.copyright">Copyright © 2020, Quinto Molinillo - Todos los derechos reservados</p>
                 <img src="./assets/footer/make-icon.png" alt="">
             </div>
         </div>
